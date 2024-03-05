@@ -1,0 +1,17 @@
+17:23:53 **** Incremental Build of configuration Debug for project 009Binary_Semaphores ****
+make -j8 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F407xx -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -I"D:/STM32_Workspace/RTOS_workspace/FreeRTOS_Tut/common/ThirdParty/FreeRTOS/include" -I"D:/STM32_Workspace/RTOS_workspace/FreeRTOS_Tut/common/ThirdParty/FreeRTOS/portable/GCC/ARM_CM4F" -I"D:/STM32_Workspace/RTOS_workspace/FreeRTOS_Tut/common/ThirdParty/SEGGER/Config" -I"D:/STM32_Workspace/RTOS_workspace/FreeRTOS_Tut/common/ThirdParty/SEGGER/OS" -I"D:/STM32_Workspace/RTOS_workspace/FreeRTOS_Tut/common/ThirdParty/SEGGER/SEGGER" -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/main.o"
+arm-none-eabi-gcc -o "009Binary_Semaphores.elf" @"objects.list"   -mcpu=cortex-m4 -T"D:\STM32_Workspace\RTOS_workspace\FreeRTOS_Tut\009Binary_Semaphores\STM32F407VGTX_FLASH.ld" --specs=nosys.specs -Wl,-Map="009Binary_Semaphores.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: 009Binary_Semaphores.elf
+ 
+arm-none-eabi-size  009Binary_Semaphores.elf 
+arm-none-eabi-objdump -h -S 009Binary_Semaphores.elf  > "009Binary_Semaphores.list"
+   text	   data	    bss	    dec	    hex	filename
+  30112	    120	  79536	 109768	  1acc8	009Binary_Semaphores.elf
+Finished building: default.size.stdout
+ 
+Finished building: 009Binary_Semaphores.list
+ 
+
+17:23:56 Build Finished. 0 errors, 0 warnings. (took 2s.315ms)
+

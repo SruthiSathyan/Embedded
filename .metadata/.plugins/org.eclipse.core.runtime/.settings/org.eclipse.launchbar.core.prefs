@@ -1,0 +1,13 @@
+LaunchTargetManager/org.eclipse.launchbar.core.launchTargetType.local,Local/arch=x86_64
+LaunchTargetManager/org.eclipse.launchbar.core.launchTargetType.local,Local/name=Local
+LaunchTargetManager/org.eclipse.launchbar.core.launchTargetType.local,Local/os=win32
+configDescList=org.eclipse.cdt.dsf.gdb.gdbRemotedescriptorType\:RTC_Alarm,org.eclipse.cdt.dsf.gdb.gdbRemotedescriptorType\:000TASK (1),org.eclipse.cdt.dsf.gdb.gdbRemotedescriptorType\:001_Task,org.eclipse.cdt.dsf.gdb.gdbRemotedescriptorType\:002LED_Tasks,org.eclipse.cdt.dsf.gdb.gdbRemotedescriptorType\:003LED_Block_Tasks,org.eclipse.cdt.dsf.gdb.gdbRemotedescriptorType\:005LED_Delete_Task,org.eclipse.cdt.dsf.gdb.gdbRemotedescriptorType\:006LED_Interrupt_Task,org.eclipse.cdt.dsf.gdb.gdbRemotedescriptorType\:007LED_Interrupt_Continous,org.eclipse.cdt.dsf.gdb.gdbRemotedescriptorType\:000TASK,org.eclipse.cdt.dsf.gdb.gdbRemotedescriptorType\:009Binary_Semaphore,org.eclipse.cdt.dsf.gdb.gdbRemotedescriptorType\:BinarySemaphore,org.eclipse.cdt.dsf.gdb.gdbRemotedescriptorType\:CountingSemaphore,org.eclipse.cdt.dsf.gdb.gdbRemotedescriptorType\:EEPROM_Structure_Demo,org.eclipse.cdt.dsf.gdb.gdbRemotedescriptorType\:PageWrite,org.eclipse.cdt.dsf.gdb.gdbRemotedescriptorType\:EEPROM_ROLLOVER_AVOID,org.eclipse.cdt.dsf.gdb.gdbRemotedescriptorType\:EEPROM_Structure,org.eclipse.cdt.dsf.gdb.gdbRemotedescriptorType\:EEPROM_write_read (1),org.eclipse.cdt.dsf.gdb.gdbRemotedescriptorType\:EEPROM_write_read,org.eclipse.cdt.dsf.gdb.gdbRemotedescriptorType\:EEPROM_write_readDEMO,org.eclipse.cdt.dsf.gdb.gdbRemotedescriptorType\:structure_Read_and_Write,org.eclipse.cdt.dsf.gdb.gdbRemotedescriptorType\:RTC,org.eclipse.cdt.dsf.gdb.gdbRemotedescriptorType\:SIM_Strength,org.eclipse.cdt.dsf.gdb.gdbRemotedescriptorType\:008Queues_n_Timers,org.eclipse.cdt.dsf.gdb.gdbRemotedescriptorType\:UART
+eclipse.preferences.version=1
+org.eclipse.cdt.dsf.gdb.gdbRemotedescriptorType\:000TASK\ (1)/activeLaunchMode=run
+org.eclipse.cdt.dsf.gdb.gdbRemotedescriptorType\:000TASK\ (1)/activeLaunchTarget=null\:---
+org.eclipse.cdt.dsf.gdb.gdbRemotedescriptorType\:001_Task/activeLaunchMode=debug
+org.eclipse.cdt.dsf.gdb.gdbRemotedescriptorType\:001_Task/activeLaunchTarget=null\:---
+org.eclipse.cdt.dsf.gdb.gdbRemotedescriptorType\:007LED_Interrupt_Continous/activeLaunchMode=debug
+org.eclipse.cdt.dsf.gdb.gdbRemotedescriptorType\:008Queues_n_Timers/activeLaunchMode=debug
+org.eclipse.cdt.dsf.gdb.gdbRemotedescriptorType\:PageWrite/activeLaunchMode=debug
+org.eclipse.cdt.dsf.gdb.gdbRemotedescriptorType\:SIM_Strength/activeLaunchMode=debug

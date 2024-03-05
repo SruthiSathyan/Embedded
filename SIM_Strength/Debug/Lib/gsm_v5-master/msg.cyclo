@@ -1,0 +1,12 @@
+../Lib/gsm_v5-master/msg.c:6:6:gsm_msg_updateStorage	9
+../Lib/gsm_v5-master/msg.c:44:10:gsm_msg_getStorageUsed	1
+../Lib/gsm_v5-master/msg.c:50:10:gsm_msg_getStorageTotal	1
+../Lib/gsm_v5-master/msg.c:56:10:gsm_msg_getStorageFree	1
+../Lib/gsm_v5-master/msg.c:62:6:gsm_msg_textMode	6
+../Lib/gsm_v5-master/msg.c:103:6:gsm_msg_isTextMode	4
+../Lib/gsm_v5-master/msg.c:134:6:gsm_msg_deleteAll	5
+../Lib/gsm_v5-master/msg.c:167:6:gsm_msg_delete	3
+../Lib/gsm_v5-master/msg.c:187:6:gsm_msg_send	11
+../Lib/gsm_v5-master/msg.c:261:6:gsm_msg_selectStorage	8
+../Lib/gsm_v5-master/msg.c:304:6:gsm_msg_selectCharacterSet	10
+../Lib/gsm_v5-master/msg.c:352:6:gsm_msg_read	9

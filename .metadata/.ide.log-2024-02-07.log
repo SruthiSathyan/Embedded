@@ -1,0 +1,114 @@
+2024-02-08 10:02:44,153 [INFO] UtilMem:75 - End SaveConfig() Used Memory: 233383640 Bytes (759169024)
+2024-02-08 10:02:46,371 [INFO] UtilMem:75 - End SaveConfig() Used Memory: 256641368 Bytes (759169024)
+2024-02-08 10:02:48,823 [INFO] UtilMem:75 - End SaveConfig() Used Memory: 342957784 Bytes (759169024)
+2024-02-08 10:02:49,120 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: SYS
+2024-02-08 10:02:49,120 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: RCC
+2024-02-08 10:02:49,120 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: I2C
+2024-02-08 10:02:49,120 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: NVIC
+2024-02-08 10:02:49,120 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: GPIO
+2024-02-08 10:02:49,122 [INFO] CodeGenerator:807 - code generatio: config db path: C:\ST\STM32CubeIDE_1.14.0\STM32CubeIDE\plugins\com.st.stm32cube.common.mx_6.10.0.202311202037\\db\
+2024-02-08 10:02:49,123 [WARN] IP:2119 - I2C_Coeff_DF not found: check if there is a RefParameter without a condition.
+2024-02-08 10:02:49,123 [WARN] IP:2119 - Analog_Filter not found: check if there is a RefParameter without a condition.
+2024-02-08 10:02:49,298 [INFO] CodeEngine:255 - oldGeneratedFile, D:\STM32_Workspace\RTOS_workspace\FreeRTOS_Tut\Structure_read_n_write\MXTmpFiles\license.tmp_save
+2024-02-08 10:02:49,365 [INFO] CodeEngine:279 - Generated code: D:\STM32_Workspace\RTOS_workspace\FreeRTOS_Tut\Structure_read_n_write\MXTmpFiles\license.tmp
+2024-02-08 10:02:49,398 [INFO] CodeEngine:255 - oldGeneratedFile, D:\STM32_Workspace\RTOS_workspace\FreeRTOS_Tut\Structure_read_n_write\MXTmpFiles\gpio.tmp_save
+2024-02-08 10:02:49,451 [INFO] CodeEngine:279 - Generated code: D:\STM32_Workspace\RTOS_workspace\FreeRTOS_Tut\Structure_read_n_write\MXTmpFiles\gpio.tmp
+2024-02-08 10:02:49,533 [INFO] CodeEngine:255 - oldGeneratedFile, D:\STM32_Workspace\RTOS_workspace\FreeRTOS_Tut\Structure_read_n_write\Core\Src\stm32f4xx_it.c_save
+2024-02-08 10:02:49,783 [INFO] CodeEngine:279 - Generated code: D:\STM32_Workspace\RTOS_workspace\FreeRTOS_Tut\Structure_read_n_write\Core\Src\stm32f4xx_it.c
+2024-02-08 10:02:49,789 [INFO] CodeEngine:255 - oldGeneratedFile, D:\STM32_Workspace\RTOS_workspace\FreeRTOS_Tut\Structure_read_n_write\Core\Inc\stm32f4xx_it.h_save
+2024-02-08 10:02:49,843 [INFO] CodeEngine:279 - Generated code: D:\STM32_Workspace\RTOS_workspace\FreeRTOS_Tut\Structure_read_n_write\Core\Inc\stm32f4xx_it.h
+2024-02-08 10:02:49,856 [INFO] CodeEngine:255 - oldGeneratedFile, D:\STM32_Workspace\RTOS_workspace\FreeRTOS_Tut\Structure_read_n_write\Core\Src\stm32f4xx_hal_msp.c_save
+2024-02-08 10:02:49,923 [INFO] CodeEngine:279 - Generated code: D:\STM32_Workspace\RTOS_workspace\FreeRTOS_Tut\Structure_read_n_write\Core\Src\stm32f4xx_hal_msp.c
+2024-02-08 10:02:49,929 [INFO] CodeEngine:255 - oldGeneratedFile, D:\STM32_Workspace\RTOS_workspace\FreeRTOS_Tut\Structure_read_n_write\MXTmpFiles\system.tmp_save
+2024-02-08 10:02:49,969 [INFO] CodeEngine:279 - Generated code: D:\STM32_Workspace\RTOS_workspace\FreeRTOS_Tut\Structure_read_n_write\MXTmpFiles\system.tmp
+2024-02-08 10:02:49,974 [INFO] CodeEngine:255 - oldGeneratedFile, D:\STM32_Workspace\RTOS_workspace\FreeRTOS_Tut\Structure_read_n_write\Core\Src\stm32f4xx_hal_timebase_tim.c_save
+2024-02-08 10:02:50,016 [INFO] CodeEngine:279 - Generated code: D:\STM32_Workspace\RTOS_workspace\FreeRTOS_Tut\Structure_read_n_write\Core\Src\stm32f4xx_hal_timebase_tim.c
+2024-02-08 10:02:50,029 [INFO] CodeEngine:311 - oldGeneratedFile, D:\STM32_Workspace\RTOS_workspace\FreeRTOS_Tut\Structure_read_n_write\Core\Inc\stm32f4xx_hal_conf.h_save
+2024-02-08 10:02:50,073 [INFO] CodeEngine:335 - Generated code: D:\STM32_Workspace\RTOS_workspace\FreeRTOS_Tut\Structure_read_n_write\Core\Inc\stm32f4xx_hal_conf.h
+2024-02-08 10:02:50,104 [INFO] CodeEngine:255 - oldGeneratedFile, D:\STM32_Workspace\RTOS_workspace\FreeRTOS_Tut\Structure_read_n_write\Core\Inc\main.h_save
+2024-02-08 10:02:50,157 [INFO] CodeEngine:279 - Generated code: D:\STM32_Workspace\RTOS_workspace\FreeRTOS_Tut\Structure_read_n_write\Core\Inc\main.h
+2024-02-08 10:02:50,162 [INFO] CodeEngine:255 - oldGeneratedFile, D:\STM32_Workspace\RTOS_workspace\FreeRTOS_Tut\Structure_read_n_write\Core\Src\main.c_save
+2024-02-08 10:02:50,250 [INFO] CodeEngine:279 - Generated code: D:\STM32_Workspace\RTOS_workspace\FreeRTOS_Tut\Structure_read_n_write\Core\Src\main.c
+2024-02-08 10:02:50,771 [INFO] ProjectBuilder:3076 - Time for Copy HAL[1] : 244mS.
+2024-02-08 10:02:50,775 [INFO] ProjectBuilder:4485 - Project Generator version: 4.2.0-B44
+2024-02-08 10:02:51,024 [INFO] ConfigFileManager:1495 - The Die is : DIE413
+2024-02-08 10:02:51,978 [INFO] ProjectBuilder:4747 - Time for Generating toolchain IDE Files: 1203mS.
+2024-02-08 10:02:51,979 [INFO] ProjectBuilder:2947 - Time for Copy CMSIS : 1mS.
+2024-02-08 10:02:51,985 [INFO] ProjectBuilder:2947 - Time for Copy CMSIS : 0mS.
+2024-02-08 10:30:15,506 [INFO] UtilMem:75 - End SaveConfig() Used Memory: 657297504 Bytes (835715072)
+2024-02-08 10:30:17,347 [INFO] UtilMem:75 - End SaveConfig() Used Memory: 274672712 Bytes (835715072)
+2024-02-08 10:30:22,613 [INFO] UtilMem:75 - End SaveConfig() Used Memory: 420828080 Bytes (835715072)
+2024-02-08 10:30:22,832 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: SYS
+2024-02-08 10:30:22,832 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: RCC
+2024-02-08 10:30:22,832 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: NVIC
+2024-02-08 10:30:22,832 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: GPIO
+2024-02-08 10:30:22,833 [INFO] CodeGenerator:807 - code generatio: config db path: C:\ST\STM32CubeIDE_1.14.0\STM32CubeIDE\plugins\com.st.stm32cube.common.mx_6.10.0.202311202037\\db\
+2024-02-08 10:30:22,944 [INFO] CodeEngine:255 - oldGeneratedFile, D:\STM32_Workspace\RTOS_workspace\FreeRTOS_Tut\Structure_read_n_write\MXTmpFiles\license.tmp_save
+2024-02-08 10:30:23,009 [INFO] CodeEngine:279 - Generated code: D:\STM32_Workspace\RTOS_workspace\FreeRTOS_Tut\Structure_read_n_write\MXTmpFiles\license.tmp
+2024-02-08 10:30:23,036 [INFO] CodeEngine:255 - oldGeneratedFile, D:\STM32_Workspace\RTOS_workspace\FreeRTOS_Tut\Structure_read_n_write\MXTmpFiles\gpio.tmp_save
+2024-02-08 10:30:23,082 [INFO] CodeEngine:279 - Generated code: D:\STM32_Workspace\RTOS_workspace\FreeRTOS_Tut\Structure_read_n_write\MXTmpFiles\gpio.tmp
+2024-02-08 10:30:23,105 [INFO] CodeEngine:255 - oldGeneratedFile, D:\STM32_Workspace\RTOS_workspace\FreeRTOS_Tut\Structure_read_n_write\Core\Src\stm32f4xx_it.c_save
+2024-02-08 10:30:23,192 [INFO] CodeEngine:279 - Generated code: D:\STM32_Workspace\RTOS_workspace\FreeRTOS_Tut\Structure_read_n_write\Core\Src\stm32f4xx_it.c
+2024-02-08 10:30:23,196 [INFO] CodeEngine:255 - oldGeneratedFile, D:\STM32_Workspace\RTOS_workspace\FreeRTOS_Tut\Structure_read_n_write\Core\Inc\stm32f4xx_it.h_save
+2024-02-08 10:30:23,235 [INFO] CodeEngine:279 - Generated code: D:\STM32_Workspace\RTOS_workspace\FreeRTOS_Tut\Structure_read_n_write\Core\Inc\stm32f4xx_it.h
+2024-02-08 10:30:23,246 [INFO] CodeEngine:255 - oldGeneratedFile, D:\STM32_Workspace\RTOS_workspace\FreeRTOS_Tut\Structure_read_n_write\Core\Src\stm32f4xx_hal_msp.c_save
+2024-02-08 10:30:23,301 [INFO] CodeEngine:279 - Generated code: D:\STM32_Workspace\RTOS_workspace\FreeRTOS_Tut\Structure_read_n_write\Core\Src\stm32f4xx_hal_msp.c
+2024-02-08 10:30:23,305 [INFO] CodeEngine:255 - oldGeneratedFile, D:\STM32_Workspace\RTOS_workspace\FreeRTOS_Tut\Structure_read_n_write\MXTmpFiles\system.tmp_save
+2024-02-08 10:30:23,341 [INFO] CodeEngine:279 - Generated code: D:\STM32_Workspace\RTOS_workspace\FreeRTOS_Tut\Structure_read_n_write\MXTmpFiles\system.tmp
+2024-02-08 10:30:23,345 [INFO] CodeEngine:255 - oldGeneratedFile, D:\STM32_Workspace\RTOS_workspace\FreeRTOS_Tut\Structure_read_n_write\Core\Src\stm32f4xx_hal_timebase_tim.c_save
+2024-02-08 10:30:23,385 [INFO] CodeEngine:279 - Generated code: D:\STM32_Workspace\RTOS_workspace\FreeRTOS_Tut\Structure_read_n_write\Core\Src\stm32f4xx_hal_timebase_tim.c
+2024-02-08 10:30:23,394 [INFO] CodeEngine:311 - oldGeneratedFile, D:\STM32_Workspace\RTOS_workspace\FreeRTOS_Tut\Structure_read_n_write\Core\Inc\stm32f4xx_hal_conf.h_save
+2024-02-08 10:30:23,437 [INFO] CodeEngine:335 - Generated code: D:\STM32_Workspace\RTOS_workspace\FreeRTOS_Tut\Structure_read_n_write\Core\Inc\stm32f4xx_hal_conf.h
+2024-02-08 10:30:23,467 [INFO] CodeEngine:255 - oldGeneratedFile, D:\STM32_Workspace\RTOS_workspace\FreeRTOS_Tut\Structure_read_n_write\Core\Inc\main.h_save
+2024-02-08 10:30:23,569 [INFO] CodeEngine:279 - Generated code: D:\STM32_Workspace\RTOS_workspace\FreeRTOS_Tut\Structure_read_n_write\Core\Inc\main.h
+2024-02-08 10:30:23,575 [INFO] CodeEngine:255 - oldGeneratedFile, D:\STM32_Workspace\RTOS_workspace\FreeRTOS_Tut\Structure_read_n_write\Core\Src\main.c_save
+2024-02-08 10:30:23,635 [INFO] CodeEngine:279 - Generated code: D:\STM32_Workspace\RTOS_workspace\FreeRTOS_Tut\Structure_read_n_write\Core\Src\main.c
+2024-02-08 10:30:24,105 [INFO] ProjectBuilder:3076 - Time for Copy HAL[1] : 208mS.
+2024-02-08 10:30:24,109 [INFO] ProjectBuilder:4485 - Project Generator version: 4.2.0-B44
+2024-02-08 10:30:24,216 [INFO] ConfigFileManager:1495 - The Die is : DIE413
+2024-02-08 10:30:25,349 [INFO] ProjectBuilder:4747 - Time for Generating toolchain IDE Files: 1239mS.
+2024-02-08 10:30:25,351 [INFO] ProjectBuilder:2947 - Time for Copy CMSIS : 1mS.
+2024-02-08 10:30:25,357 [INFO] ProjectBuilder:2947 - Time for Copy CMSIS : 1mS.
+2024-02-08 10:30:31,477 [WARN] IP:2119 - I2C_Coeff_DF not found: check if there is a RefParameter without a condition.
+2024-02-08 10:30:31,477 [WARN] IP:2119 - Analog_Filter not found: check if there is a RefParameter without a condition.
+2024-02-08 10:30:31,478 [WARN] IP:2119 - I2C_Coeff_DF not found: check if there is a RefParameter without a condition.
+2024-02-08 10:30:31,478 [WARN] IP:2119 - Analog_Filter not found: check if there is a RefParameter without a condition.
+2024-02-08 10:30:31,521 [WARN] IP:2119 - I2C_Coeff_DF not found: check if there is a RefParameter without a condition.
+2024-02-08 10:30:31,521 [WARN] IP:2119 - Analog_Filter not found: check if there is a RefParameter without a condition.
+2024-02-08 10:30:33,468 [INFO] UtilMem:75 - End SaveConfig() Used Memory: 455066496 Bytes (1017118720)
+2024-02-08 10:30:35,186 [INFO] UtilMem:75 - End SaveConfig() Used Memory: 476038016 Bytes (1017118720)
+2024-02-08 10:30:37,213 [INFO] UtilMem:75 - End SaveConfig() Used Memory: 513786752 Bytes (1017118720)
+2024-02-08 10:30:37,429 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: SYS
+2024-02-08 10:30:37,429 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: RCC
+2024-02-08 10:30:37,429 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: I2C
+2024-02-08 10:30:37,429 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: NVIC
+2024-02-08 10:30:37,429 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: GPIO
+2024-02-08 10:30:37,430 [INFO] CodeGenerator:807 - code generatio: config db path: C:\ST\STM32CubeIDE_1.14.0\STM32CubeIDE\plugins\com.st.stm32cube.common.mx_6.10.0.202311202037\\db\
+2024-02-08 10:30:37,431 [WARN] IP:2119 - I2C_Coeff_DF not found: check if there is a RefParameter without a condition.
+2024-02-08 10:30:37,431 [WARN] IP:2119 - Analog_Filter not found: check if there is a RefParameter without a condition.
+2024-02-08 10:30:37,558 [INFO] CodeEngine:255 - oldGeneratedFile, D:\STM32_Workspace\RTOS_workspace\FreeRTOS_Tut\Structure_read_n_write\MXTmpFiles\license.tmp_save
+2024-02-08 10:30:37,593 [INFO] CodeEngine:279 - Generated code: D:\STM32_Workspace\RTOS_workspace\FreeRTOS_Tut\Structure_read_n_write\MXTmpFiles\license.tmp
+2024-02-08 10:30:37,615 [INFO] CodeEngine:255 - oldGeneratedFile, D:\STM32_Workspace\RTOS_workspace\FreeRTOS_Tut\Structure_read_n_write\MXTmpFiles\gpio.tmp_save
+2024-02-08 10:30:37,653 [INFO] CodeEngine:279 - Generated code: D:\STM32_Workspace\RTOS_workspace\FreeRTOS_Tut\Structure_read_n_write\MXTmpFiles\gpio.tmp
+2024-02-08 10:30:37,702 [INFO] CodeEngine:255 - oldGeneratedFile, D:\STM32_Workspace\RTOS_workspace\FreeRTOS_Tut\Structure_read_n_write\Core\Src\stm32f4xx_it.c_save
+2024-02-08 10:30:37,745 [INFO] CodeEngine:279 - Generated code: D:\STM32_Workspace\RTOS_workspace\FreeRTOS_Tut\Structure_read_n_write\Core\Src\stm32f4xx_it.c
+2024-02-08 10:30:37,750 [INFO] CodeEngine:255 - oldGeneratedFile, D:\STM32_Workspace\RTOS_workspace\FreeRTOS_Tut\Structure_read_n_write\Core\Inc\stm32f4xx_it.h_save
+2024-02-08 10:30:37,789 [INFO] CodeEngine:279 - Generated code: D:\STM32_Workspace\RTOS_workspace\FreeRTOS_Tut\Structure_read_n_write\Core\Inc\stm32f4xx_it.h
+2024-02-08 10:30:37,798 [INFO] CodeEngine:255 - oldGeneratedFile, D:\STM32_Workspace\RTOS_workspace\FreeRTOS_Tut\Structure_read_n_write\Core\Src\stm32f4xx_hal_msp.c_save
+2024-02-08 10:30:37,853 [INFO] CodeEngine:279 - Generated code: D:\STM32_Workspace\RTOS_workspace\FreeRTOS_Tut\Structure_read_n_write\Core\Src\stm32f4xx_hal_msp.c
+2024-02-08 10:30:37,857 [INFO] CodeEngine:255 - oldGeneratedFile, D:\STM32_Workspace\RTOS_workspace\FreeRTOS_Tut\Structure_read_n_write\MXTmpFiles\system.tmp_save
+2024-02-08 10:30:37,891 [INFO] CodeEngine:279 - Generated code: D:\STM32_Workspace\RTOS_workspace\FreeRTOS_Tut\Structure_read_n_write\MXTmpFiles\system.tmp
+2024-02-08 10:30:37,895 [INFO] CodeEngine:255 - oldGeneratedFile, D:\STM32_Workspace\RTOS_workspace\FreeRTOS_Tut\Structure_read_n_write\Core\Src\stm32f4xx_hal_timebase_tim.c_save
+2024-02-08 10:30:37,936 [INFO] CodeEngine:279 - Generated code: D:\STM32_Workspace\RTOS_workspace\FreeRTOS_Tut\Structure_read_n_write\Core\Src\stm32f4xx_hal_timebase_tim.c
+2024-02-08 10:30:37,945 [INFO] CodeEngine:311 - oldGeneratedFile, D:\STM32_Workspace\RTOS_workspace\FreeRTOS_Tut\Structure_read_n_write\Core\Inc\stm32f4xx_hal_conf.h_save
+2024-02-08 10:30:37,987 [INFO] CodeEngine:335 - Generated code: D:\STM32_Workspace\RTOS_workspace\FreeRTOS_Tut\Structure_read_n_write\Core\Inc\stm32f4xx_hal_conf.h
+2024-02-08 10:30:38,012 [INFO] CodeEngine:255 - oldGeneratedFile, D:\STM32_Workspace\RTOS_workspace\FreeRTOS_Tut\Structure_read_n_write\Core\Inc\main.h_save
+2024-02-08 10:30:38,052 [INFO] CodeEngine:279 - Generated code: D:\STM32_Workspace\RTOS_workspace\FreeRTOS_Tut\Structure_read_n_write\Core\Inc\main.h
+2024-02-08 10:30:38,058 [INFO] CodeEngine:255 - oldGeneratedFile, D:\STM32_Workspace\RTOS_workspace\FreeRTOS_Tut\Structure_read_n_write\Core\Src\main.c_save
+2024-02-08 10:30:38,119 [INFO] CodeEngine:279 - Generated code: D:\STM32_Workspace\RTOS_workspace\FreeRTOS_Tut\Structure_read_n_write\Core\Src\main.c
+2024-02-08 10:30:38,649 [INFO] ProjectBuilder:3076 - Time for Copy HAL[1] : 218mS.
+2024-02-08 10:30:38,653 [INFO] ProjectBuilder:4485 - Project Generator version: 4.2.0-B44
+2024-02-08 10:30:38,763 [INFO] ConfigFileManager:1495 - The Die is : DIE413
+2024-02-08 10:30:39,730 [INFO] ProjectBuilder:4747 - Time for Generating toolchain IDE Files: 1076mS.
+2024-02-08 10:30:39,732 [INFO] ProjectBuilder:2947 - Time for Copy CMSIS : 1mS.
+2024-02-08 10:30:39,737 [INFO] ProjectBuilder:2947 - Time for Copy CMSIS : 0mS.

@@ -1,0 +1,10 @@
+16:00:17 **** Incremental Build of configuration Debug for project 009Binary_Semaphore ****
+make -j8 all 
+arm-none-eabi-size  009Binary_Semaphore.elf 
+   text	   data	    bss	    dec	    hex	filename
+  28668	     28	  80604	 109300	  1aaf4	009Binary_Semaphore.elf
+Finished building: default.size.stdout
+ 
+
+16:00:18 Build Finished. 0 errors, 0 warnings. (took 1s.267ms)
+

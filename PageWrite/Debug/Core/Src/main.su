@@ -1,0 +1,8 @@
+../Core/Src/main.c:79:5:main	16	static
+../Core/Src/main.c:137:6:SystemClock_Config	88	static
+../Core/Src/main.c:184:13:MX_I2C1_Init	8	static
+../Core/Src/main.c:218:13:MX_GPIO_Init	48	static
+../Core/Src/main.c:260:6:writeToEEPROM	64	static
+../Core/Src/main.c:293:6:readFromEEPROM	64	static
+../Core/Src/main.c:316:10:bytestowrite	16	static
+../Core/Src/main.c:334:6:Error_Handler	4	static,ignoring_inline_asm

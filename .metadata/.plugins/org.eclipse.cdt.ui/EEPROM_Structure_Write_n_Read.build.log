@@ -1,0 +1,93 @@
+16:12:35 **** Incremental Build of configuration Debug for project EEPROM_Structure_Write_n_Read ****
+make -j8 all 
+arm-none-eabi-gcc "../Core/Src/EEPROM_Write_and_Read.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F401xE -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/EEPROM_Write_and_Read.d" -MT"Core/Src/EEPROM_Write_and_Read.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/EEPROM_Write_and_Read.o"
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F401xE -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/main.o"
+In file included from ../Core/Src/EEPROM_Write_and_Read.c:9:
+../Core/Inc/EEPROM_Write_and_Read.h:11:8: warning: type defaults to 'int' in declaration of 'EEPROM_ADDRESS' [-Wimplicit-int]
+   11 | extern EEPROM_ADDRESS;
+      |        ^~~~~~~~~~~~~~
+../Core/Inc/EEPROM_Write_and_Read.h:13:8: warning: type defaults to 'int' in declaration of 'PAGE_SIZE' [-Wimplicit-int]
+   13 | extern PAGE_SIZE ;    // in Bytes
+      |        ^~~~~~~~~
+../Core/Inc/EEPROM_Write_and_Read.h:14:8: warning: type defaults to 'int' in declaration of 'PAGE_NUM' [-Wimplicit-int]
+   14 | extern PAGE_NUM  ;   // number of pages
+      |        ^~~~~~~~
+../Core/Inc/EEPROM_Write_and_Read.h:16:9: warning: type defaults to 'int' in declaration of 'hi2c1' [-Wimplicit-int]
+   16 | extern  hi2c1;
+      |         ^~~~~
+../Core/Src/EEPROM_Write_and_Read.c: In function 'readFromEEPROM':
+../Core/Src/EEPROM_Write_and_Read.c:21:9: warning: implicit declaration of function 'HAL_I2C_Mem_Read' [-Wimplicit-function-declaration]
+   21 |         HAL_I2C_Mem_Read(&hi2c1, EEPROM_ADDRESS, startingMemoryAddress, 2, &info[pos], size, 1000);
+      |         ^~~~~~~~~~~~~~~~
+../Core/Src/EEPROM_Write_and_Read.c: In function 'writeToEEPROM':
+../Core/Src/EEPROM_Write_and_Read.c:41:17: error: unknown type name 'HAL_StatusTypeDef'
+   41 |                 HAL_StatusTypeDef writeRet = HAL_I2C_Mem_Write(&hi2c1, EEPROM_ADDRESS, currentMemoryAddress, 2, (uint8_t*)(dataPointer), sizeOfDataToWrite, 1000);
+      |                 ^~~~~~~~~~~~~~~~~
+../Core/Src/EEPROM_Write_and_Read.c:41:46: warning: implicit declaration of function 'HAL_I2C_Mem_Write' [-Wimplicit-function-declaration]
+   41 |                 HAL_StatusTypeDef writeRet = HAL_I2C_Mem_Write(&hi2c1, EEPROM_ADDRESS, currentMemoryAddress, 2, (uint8_t*)(dataPointer), sizeOfDataToWrite, 1000);
+      |                                              ^~~~~~~~~~~~~~~~~
+../Core/Src/EEPROM_Write_and_Read.c:43:17: warning: implicit declaration of function 'HAL_Delay' [-Wimplicit-function-declaration]
+   43 |                 HAL_Delay(5);
+      |                 ^~~~~~~~~
+../Core/Src/EEPROM_Write_and_Read.c:45:33: error: 'HAL_OK' undeclared (first use in this function)
+   45 |                 if (writeRet != HAL_OK)
+      |                                 ^~~~~~
+../Core/Src/EEPROM_Write_and_Read.c:45:33: note: each undeclared identifier is reported only once for each function it appears in
+make: *** [Core/Src/subdir.mk:37: Core/Src/EEPROM_Write_and_Read.o] Error 1
+make: *** Waiting for unfinished jobs....
+In file included from ../Core/Src/main.c:27:
+../Core/Inc/EEPROM_Write_and_Read.h:11:8: warning: type defaults to 'int' in declaration of 'EEPROM_ADDRESS' [-Wimplicit-int]
+   11 | extern EEPROM_ADDRESS;
+      |        ^~~~~~~~~~~~~~
+../Core/Inc/EEPROM_Write_and_Read.h:13:8: warning: type defaults to 'int' in declaration of 'PAGE_SIZE' [-Wimplicit-int]
+   13 | extern PAGE_SIZE ;    // in Bytes
+      |        ^~~~~~~~~
+../Core/Inc/EEPROM_Write_and_Read.h:14:8: warning: type defaults to 'int' in declaration of 'PAGE_NUM' [-Wimplicit-int]
+   14 | extern PAGE_NUM  ;   // number of pages
+      |        ^~~~~~~~
+../Core/Inc/EEPROM_Write_and_Read.h:16:9: warning: type defaults to 'int' in declaration of 'hi2c1' [-Wimplicit-int]
+   16 | extern  hi2c1;
+      |         ^~~~~
+../Core/Src/main.c:47:19: error: conflicting types for 'hi2c1'; have 'I2C_HandleTypeDef'
+   47 | I2C_HandleTypeDef hi2c1;
+      |                   ^~~~~
+In file included from ../Core/Src/main.c:27:
+../Core/Inc/EEPROM_Write_and_Read.h:16:9: note: previous declaration of 'hi2c1' with type 'int'
+   16 | extern  hi2c1;
+      |         ^~~~~
+../Core/Src/main.c: In function 'main':
+../Core/Src/main.c:171:23: warning: passing argument 1 of 'writeToEEPROM' from incompatible pointer type [-Wincompatible-pointer-types]
+  171 |         writeToEEPROM(&byteArrayofStructureA, startingMemoryAddress1, size1);
+      |                       ^~~~~~~~~~~~~~~~~~~~~~
+      |                       |
+      |                       unsigned char (*)[8]
+In file included from ../Core/Src/main.c:27:
+../Core/Inc/EEPROM_Write_and_Read.h:19:20: note: expected 'uint8_t *' {aka 'unsigned char *'} but argument is of type 'unsigned char (*)[8]'
+   19 | void writeToEEPROM(uint8_t *, uint16_t , uint8_t);
+      |                    ^~~~~~~~~
+../Core/Src/main.c:175:23: warning: passing argument 1 of 'writeToEEPROM' from incompatible pointer type [-Wincompatible-pointer-types]
+  175 |         writeToEEPROM(&byteArrayofStructureB, startingMemoryAddress2, size2);
+      |                       ^~~~~~~~~~~~~~~~~~~~~~
+      |                       |
+      |                       unsigned char (*)[2]
+In file included from ../Core/Src/main.c:27:
+../Core/Inc/EEPROM_Write_and_Read.h:19:20: note: expected 'uint8_t *' {aka 'unsigned char *'} but argument is of type 'unsigned char (*)[2]'
+   19 | void writeToEEPROM(uint8_t *, uint16_t , uint8_t);
+      |                    ^~~~~~~~~
+../Core/Src/main.c:179:23: warning: passing argument 1 of 'writeToEEPROM' from incompatible pointer type [-Wincompatible-pointer-types]
+  179 |         writeToEEPROM(&byteArrayofStructureC, startingMemoryAddress3, size3);
+      |                       ^~~~~~~~~~~~~~~~~~~~~~
+      |                       |
+      |                       unsigned char (*)[2]
+In file included from ../Core/Src/main.c:27:
+../Core/Inc/EEPROM_Write_and_Read.h:19:20: note: expected 'uint8_t *' {aka 'unsigned char *'} but argument is of type 'unsigned char (*)[2]'
+   19 | void writeToEEPROM(uint8_t *, uint16_t , uint8_t);
+      |                    ^~~~~~~~~
+../Core/Src/main.c:146:11: warning: unused variable 'information' [-Wunused-variable]
+  146 |   uint8_t information[20];
+      |           ^~~~~~~~~~~
+make: *** [Core/Src/subdir.mk:37: Core/Src/main.o] Error 1
+"make -j8 all" terminated with exit code 2. Build might be incomplete.
+
+16:12:36 Build Failed. 6 errors, 15 warnings. (took 478ms)
+

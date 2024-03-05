@@ -1,0 +1,10 @@
+15:26:42 **** Incremental Build of configuration Debug for project PageWrite ****
+make -j8 all 
+arm-none-eabi-size  PageWrite.elf 
+   text	   data	    bss	    dec	    hex	filename
+  10376	     20	   1724	  12120	   2f58	PageWrite.elf
+Finished building: default.size.stdout
+ 
+
+15:26:43 Build Finished. 0 errors, 0 warnings. (took 650ms)
+

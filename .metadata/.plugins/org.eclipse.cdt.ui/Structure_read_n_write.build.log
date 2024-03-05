@@ -1,0 +1,73 @@
+19:31:49 **** Incremental Build of configuration Debug for project Structure_read_n_write ****
+make -j8 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F407xx -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/main.o"
+../Core/Src/main.c:65:8: warning: type defaults to 'int' in declaration of 'memPointer' [-Wimplicit-int]
+   65 | static memPointer;
+      |        ^~~~~~~~~~
+../Core/Src/main.c: In function 'main':
+../Core/Src/main.c:134:15: warning: implicit declaration of function 'strlen' [-Wimplicit-function-declaration]
+  134 |   char buffer[strlen(str)];
+      |               ^~~~~~
+../Core/Src/main.c:21:1: note: include '<string.h>' or provide a declaration of 'strlen'
+   20 | #include "main.h"
+  +++ |+#include <string.h>
+   21 | 
+../Core/Src/main.c:134:15: warning: incompatible implicit declaration of built-in function 'strlen' [-Wbuiltin-declaration-mismatch]
+  134 |   char buffer[strlen(str)];
+      |               ^~~~~~
+../Core/Src/main.c:134:15: note: include '<string.h>' or provide a declaration of 'strlen'
+../Core/Src/main.c:140:25: warning: passing argument 1 of 'writeToEEPROM' from incompatible pointer type [-Wincompatible-pointer-types]
+  140 |           writeToEEPROM(&str);
+      |                         ^~~~
+      |                         |
+      |                         char (*)[12]
+../Core/Src/main.c:58:27: note: expected 'char *' but argument is of type 'char (*)[12]'
+   58 | void writeToEEPROM(char * str);
+      |                    ~~~~~~~^~~
+../Core/Src/main.c:141:26: warning: passing argument 1 of 'readFromEEPROM' from incompatible pointer type [-Wincompatible-pointer-types]
+  141 |           readFromEEPROM(&buffer);
+      |                          ^~~~~~~
+      |                          |
+      |                          char (*)[strlen((const char *)&str)]
+../Core/Src/main.c:59:27: note: expected 'char *' but argument is of type 'char (*)[strlen((const char *)&str)]'
+   59 | void readFromEEPROM(char *buffer);
+      |                     ~~~~~~^~~~~~
+../Core/Src/main.c: In function 'readFromEEPROM':
+../Core/Src/main.c:409:23: warning: incompatible implicit declaration of built-in function 'strlen' [-Wbuiltin-declaration-mismatch]
+  409 |         for(int i=0;i<strlen(buffer);i++)
+      |                       ^~~~~~
+../Core/Src/main.c:409:23: note: include '<string.h>' or provide a declaration of 'strlen'
+../Core/Src/main.c:411:92: warning: cast to pointer from integer of different size [-Wint-to-pointer-cast]
+  411 |                 HAL_I2C_Mem_Read(&hi2c1, EEPROM_ADDRESS, memPointer, I2C_MEMADD_SIZE_8BIT, (uint8_t*)buffer[i], 1, 1000);
+      |                                                                                            ^
+../Core/Src/main.c: In function 'writeToEEPROM':
+../Core/Src/main.c:419:26: warning: incompatible implicit declaration of built-in function 'strlen' [-Wbuiltin-declaration-mismatch]
+  419 |         for(int i=0; i < strlen(str); i++)
+      |                          ^~~~~~
+../Core/Src/main.c:419:26: note: include '<string.h>' or provide a declaration of 'strlen'
+../Core/Src/main.c:422:134: warning: passing argument 5 of 'HAL_I2C_Mem_Write' makes pointer from integer without a cast [-Wint-conversion]
+  422 |                          HAL_StatusTypeDef writeRet = HAL_I2C_Mem_Write(&hi2c1, EEPROM_ADDRESS, memPointer, I2C_MEMADD_SIZE_8BIT, str[i],1, 1000);
+      |                                                                                                                                   ~~~^~~
+      |                                                                                                                                      |
+      |                                                                                                                                      char
+In file included from ../Core/Inc/stm32f4xx_hal_conf.h:363,
+                 from ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal.h:29,
+                 from ../Core/Inc/main.h:30,
+                 from ../Core/Src/main.c:20:
+../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_i2c.h:570:134: note: expected 'uint8_t *' {aka 'unsigned char *'} but argument is of type 'char'
+  570 | HAL_StatusTypeDef HAL_I2C_Mem_Write(I2C_HandleTypeDef *hi2c, uint16_t DevAddress, uint16_t MemAddress, uint16_t MemAddSize, uint8_t *pData, uint16_t Size, uint32_t Timeout);
+      |                                                                                                                             ~~~~~~~~~^~~~~
+arm-none-eabi-gcc -o "Structure_read_n_write.elf" @"objects.list"   -mcpu=cortex-m4 -T"D:\STM32_Workspace\RTOS_workspace\FreeRTOS_Tut\Structure_read_n_write\STM32F407VGTX_FLASH.ld" --specs=nosys.specs -Wl,-Map="Structure_read_n_write.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: Structure_read_n_write.elf
+ 
+arm-none-eabi-size  Structure_read_n_write.elf 
+arm-none-eabi-objdump -h -S Structure_read_n_write.elf  > "Structure_read_n_write.list"
+   text	   data	    bss	    dec	    hex	filename
+  13464	     32	   1728	  15224	   3b78	Structure_read_n_write.elf
+Finished building: default.size.stdout
+ 
+Finished building: Structure_read_n_write.list
+ 
+
+19:31:50 Build Finished. 0 errors, 9 warnings. (took 1s.178ms)
+

@@ -1,0 +1,49 @@
+15:22:27 **** Incremental Build of configuration Debug for project Signal_Strength ****
+make -j8 all 
+arm-none-eabi-gcc "../lib/gsm_v5/call.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F407xx -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -I../Middlewares/Third_Party/FreeRTOS/Source/include -I../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS -I../Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM4F -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"lib/gsm_v5/call.d" -MT"lib/gsm_v5/call.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "lib/gsm_v5/call.o"
+arm-none-eabi-gcc "../lib/gsm_v5/fs.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F407xx -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -I../Middlewares/Third_Party/FreeRTOS/Source/include -I../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS -I../Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM4F -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"lib/gsm_v5/fs.d" -MT"lib/gsm_v5/fs.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "lib/gsm_v5/fs.o"
+arm-none-eabi-gcc "../lib/gsm_v5/gprs.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F407xx -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -I../Middlewares/Third_Party/FreeRTOS/Source/include -I../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS -I../Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM4F -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"lib/gsm_v5/gprs.d" -MT"lib/gsm_v5/gprs.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "lib/gsm_v5/gprs.o"
+arm-none-eabi-gcc "../lib/gsm_v5/gsm.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F407xx -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -I../Middlewares/Third_Party/FreeRTOS/Source/include -I../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS -I../Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM4F -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"lib/gsm_v5/gsm.d" -MT"lib/gsm_v5/gsm.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "lib/gsm_v5/gsm.o"
+arm-none-eabi-gcc "../lib/gsm_v5/gsmCallback.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F407xx -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -I../Middlewares/Third_Party/FreeRTOS/Source/include -I../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS -I../Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM4F -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"lib/gsm_v5/gsmCallback.d" -MT"lib/gsm_v5/gsmCallback.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "lib/gsm_v5/gsmCallback.o"
+arm-none-eabi-gcc "../lib/gsm_v5/msg.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F407xx -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -I../Middlewares/Third_Party/FreeRTOS/Source/include -I../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS -I../Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM4F -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"lib/gsm_v5/msg.d" -MT"lib/gsm_v5/msg.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "lib/gsm_v5/msg.o"
+In file included from ../lib/gsm_v5/call.c:1:
+../lib/gsm_v5/gsm.h:31:10: fatal error: atcConfig.h: No such file or directory
+   31 | #include "atcConfig.h"
+      |          ^~~~~~~~~~~~~
+compilation terminated.
+make: *** [lib/gsm_v5/subdir.mk:37: lib/gsm_v5/call.o] Error 1
+make: *** Waiting for unfinished jobs....
+In file included from ../lib/gsm_v5/fs.c:1:
+../lib/gsm_v5/gsm.h:31:10: fatal error: atcConfig.h: No such file or directory
+   31 | #include "atcConfig.h"
+      |          ^~~~~~~~~~~~~
+compilation terminated.
+make: *** [lib/gsm_v5/subdir.mk:37: lib/gsm_v5/fs.o] Error 1
+In file included from ../lib/gsm_v5/gprs.c:1:
+../lib/gsm_v5/gsm.h:31:10: fatal error: atcConfig.h: No such file or directory
+   31 | #include "atcConfig.h"
+      |          ^~~~~~~~~~~~~
+compilation terminated.
+make: *** [lib/gsm_v5/subdir.mk:37: lib/gsm_v5/gprs.o] Error 1
+In file included from ../lib/gsm_v5/gsm.c:1:
+../lib/gsm_v5/gsm.h:31:10: fatal error: atcConfig.h: No such file or directory
+   31 | #include "atcConfig.h"
+      |          ^~~~~~~~~~~~~
+compilation terminated.
+make: *** [lib/gsm_v5/subdir.mk:37: lib/gsm_v5/gsm.o] Error 1
+In file included from ../lib/gsm_v5/gsmCallback.c:2:
+../lib/gsm_v5/gsm.h:31:10: fatal error: atcConfig.h: No such file or directory
+   31 | #include "atcConfig.h"
+      |          ^~~~~~~~~~~~~
+compilation terminated.
+make: *** [lib/gsm_v5/subdir.mk:37: lib/gsm_v5/gsmCallback.o] Error 1
+In file included from ../lib/gsm_v5/msg.c:1:
+../lib/gsm_v5/gsm.h:31:10: fatal error: atcConfig.h: No such file or directory
+   31 | #include "atcConfig.h"
+      |          ^~~~~~~~~~~~~
+compilation terminated.
+make: *** [lib/gsm_v5/subdir.mk:37: lib/gsm_v5/msg.o] Error 1
+"make -j8 all" terminated with exit code 2. Build might be incomplete.
+
+15:22:28 Build Failed. 13 errors, 0 warnings. (took 687ms)
+

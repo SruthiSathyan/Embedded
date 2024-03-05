@@ -1,0 +1,10 @@
+09:54:45 **** Incremental Build of configuration Debug for project EEPROM_Structure ****
+make -j8 all 
+arm-none-eabi-size  EEPROM_Structure.elf 
+   text	   data	    bss	    dec	    hex	filename
+  11672	     20	   1660	  13352	   3428	EEPROM_Structure.elf
+Finished building: default.size.stdout
+ 
+
+09:54:46 Build Finished. 0 errors, 0 warnings. (took 308ms)
+

@@ -1,0 +1,2 @@
+../Core/Src/EEPROM_Read_Write.c:13:6:readFromEEPROM	32	static
+../Core/Src/EEPROM_Read_Write.c:21:6:writeToEEPROM	48	static

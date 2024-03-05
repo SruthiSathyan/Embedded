@@ -1,0 +1,10 @@
+10:44:54 **** Incremental Build of configuration Debug for project SIM_Strength ****
+make -j8 all 
+arm-none-eabi-size  SIM_Strength.elf 
+   text	   data	    bss	    dec	    hex	filename
+  39312	    116	  21596	  61024	   ee60	SIM_Strength.elf
+Finished building: default.size.stdout
+ 
+
+10:44:55 Build Finished. 0 errors, 0 warnings. (took 471ms)
+
